@@ -7,18 +7,21 @@ import java.util.Random;
  *
  */
 
-public class ShapeUtilities {
+public class ShapeUtilities 
+{
 
 	/**
 	 * Creates a random shape from the choices.
 	 * 
 	 * @return Shape Student Work: Update with your own shape.
 	 */
-	public static Shape randomShape() {
+	public static Shape randomShape() 
+	{
 		Random rand = new Random();
 		int x = rand.nextInt(3);
 
-		switch (x) {
+		switch (x) 
+		{
 		case 0:
 			return new Circle(rand.nextInt(100));
 		case 1:
@@ -37,8 +40,8 @@ public class ShapeUtilities {
 	 * @param shapes
 	 * @return double
 	 */
-	public static double sumArea(Shape[] shapes) {
-		// To be written by student
+	public static double sumArea(Shape[] shapes) 
+	{
 		return 0.0;
 	}
 
@@ -48,7 +51,8 @@ public class ShapeUtilities {
 	 * @param shapes
 	 * @return double
 	 */
-	public static double sumPerimeter(Shape[] shapes) {
+	public static double sumPerimeter(Shape[] shapes) 
+	{
 		// To be written by student
 		return 0.0;
 	}
