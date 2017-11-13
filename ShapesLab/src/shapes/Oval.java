@@ -6,7 +6,7 @@ public class Oval implements Shape
 	private int radiusB;
 	private double pi = 3.14;
 	
-	public Oval(int radius)
+	public Oval(int radiusA, int radiusB)
 	{
 		this.radiusA = radiusA;
 		this.radiusB = radiusB;
