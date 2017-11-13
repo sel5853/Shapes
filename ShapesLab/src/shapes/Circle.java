@@ -4,12 +4,10 @@ package shapes;
  * @author Mr Levin Created 10/16/2017 Lab 2.1 shapes
  *
  */
-public class Circle implements Shape 
+public class Circle extends Oval 
 {
 
-	// fields
 	private int radius;
-	private static double pi = 3.14;
 
 	/**
 	 * Constructor method
