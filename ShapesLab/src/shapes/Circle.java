@@ -4,11 +4,11 @@ package shapes;
  * @author Mr Levin Created 10/16/2017 Lab 2.1 shapes
  *
  */
-public class Circle extends Oval 
+public class Circle extends Ellipse
 {
 
 	private int radius;
-
+	
 	/**
 	 * Constructor method
 	 * 
@@ -16,21 +16,8 @@ public class Circle extends Oval
 	 */
 	public Circle(int radius) 
 	{
+		super(radius, radius);
 		this.radius = radius;
-	}
-
-	@Override
-	public double calculateArea() 
-	{
-		double area = (pi * radius * radius);
-		return area;
-	}
-
-	@Override
-	public double calculatePerimeter() 
-	{
-		double perimeter = (2 * pi * radius);
-		return perimeter;
 	}
 
 	@Override
