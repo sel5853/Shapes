@@ -20,8 +20,8 @@ public class Ellipse implements Shape
 	public double calculatePerimeter()
 	{
 		double part1 = (Math.pow(radiusA, 2) + Math.pow(radiusB, 2))/2 ;
-		double part2 = Math.pow(part1, .5);
-		double end = (2*pi*part2);
+		double part2 = Math.sqrt(part1);
+		double end = (2 * pi * part2);
 		return end;
 	}
 
