@@ -6,7 +6,7 @@ package shapes;
 public class Rectangle implements Shape 
 {
 	/*
-	 * parameters of a rectangle length and width
+	 * Parameters of a rectangle length and width
 	 */
 	private int length;
 	private int width;
@@ -18,7 +18,7 @@ public class Rectangle implements Shape
 	}
 
 	/*
-	 * formula to calculate the area which is length times width
+	 * Formula to calculate the area which is length times width
 	 */
 	public double calculateArea() 
 	{
@@ -26,7 +26,7 @@ public class Rectangle implements Shape
 	}
 
 	/*
-	 * formula to calculate the perimeter which is 2 times the sum of the length and width
+	 * Formula to calculate the perimeter which is 2 times the sum of the length and width
 	 */
 	public double calculatePerimeter() 
 	{
@@ -34,7 +34,7 @@ public class Rectangle implements Shape
 	}
 
 	/*
-	 * returns the string stating the length and width and the area and the perimeter
+	 * Returns the string stating the length and width and the area and the perimeter
 	 */
 	public String toString() 
 	{
