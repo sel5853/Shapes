@@ -38,9 +38,9 @@ public class ShapeUtilities
 	}
 
 	/*
-	 * adds up the area of all the shapes in the array
-	 * you have an initial sumArea set to zero
-	 * then using a for loop you go through each of the shapes in the Shape array and add up the area of each
+	 * Adds up the area of all the shapes in the array
+	 * You have an initial sumArea set to zero
+	 * Then using a for loop you go through each of the shapes in the Shape array and add up the area of each
 	 */
 	public static double sumArea(Shape[] shapes) 
 	{
@@ -53,9 +53,9 @@ public class ShapeUtilities
 	}
 
 	/*
-	 * adds up the perimeter of all the shapes in the array
-	 * you have an initial sumPerimeter set to zero
-	 * then using a for loop you go through each of the shapes in the Shape array and add up the perimeter of each
+	 * Adds up the perimeter of all the shapes in the array
+	 * You have an initial sumPerimeter set to zero
+	 * Then using a for loop you go through each of the shapes in the Shape array and add up the perimeter of each
 	 */
 	public static double sumPerimeter(Shape[] shapes) 
 	{
