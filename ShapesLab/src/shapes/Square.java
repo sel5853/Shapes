@@ -2,7 +2,9 @@ package shapes;
 
 public class Square extends Rectangle 
 {
-
+	/*
+	* There is only one parameter in a square opposed to a rectangle because all sides are equal.
+	*/
 	int side;
 
 	public Square(int side) 
