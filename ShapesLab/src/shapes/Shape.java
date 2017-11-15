@@ -1,8 +1,7 @@
 package shapes;
 
-/**
- * @author Mr Levin Created 10/16/2017 Lab 2.1 shapes
- *
+/*
+ Dave Wang and Stanley Liang 11/15/17 Lab 2.1 shapes
  */
 public interface Shape {
 
