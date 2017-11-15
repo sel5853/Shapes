@@ -7,8 +7,8 @@ package shapes;
 public class Circle extends Ellipse
 {
 /* 
- * uses the same formula as ellipse thus we extend the circle from ellipse just like square and rectangle
- * instead of use 2 radii it circle only uses 1 radius
+ * Uses the same formula as ellipse thus we extend the circle from ellipse just like square and rectangle
+ * Instead of use 2 radii it circle only uses 1 radius
  */
 	private int radius;
 	
