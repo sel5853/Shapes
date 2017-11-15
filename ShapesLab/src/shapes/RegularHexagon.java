@@ -7,7 +7,7 @@ package shapes;
 public class RegularHexagon implements Shape 
 {
 	/*
-	 * the parameter of a regular hexagon is the length of one side since all the sides are equal
+	 * The parameter of a regular hexagon is the length of one side since all the sides are equal
 	 */
 	int sideLength;
 	
@@ -17,7 +17,7 @@ public class RegularHexagon implements Shape
 	}
 	
 	/*
-	 * the area of a hexagon is 3/2 times squareroot of 3 times the square of the side length
+	 * The area of a hexagon is 3/2 times squareroot of 3 times the square of the side length
 	 */
 	public double calculateArea()
 	{
@@ -28,7 +28,7 @@ public class RegularHexagon implements Shape
 	}
 	
 	/*
-	 * the perimeter formula is just 6 times the side length
+	 * The perimeter formula is just 6 times the side length
 	 */
 	public double calculatePerimeter()
 	{
@@ -36,7 +36,7 @@ public class RegularHexagon implements Shape
 	}
 	
 	/*
-	 * returns the side length of the hexagon and the area and the perimeter
+	 * Returns the side length of the hexagon and the area and the perimeter
 	 */
 	public String toString()
 	{
