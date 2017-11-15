@@ -2,6 +2,9 @@ package shapes;
 
 public class Ellipse implements Shape 
 {
+	/*
+	* Parameters of the ellipse 
+	*/
 	private int radiusA;
 	private int radiusB;
 	private double pi = 3.14;
