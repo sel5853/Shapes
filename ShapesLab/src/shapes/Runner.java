@@ -23,7 +23,11 @@ public class Runner {
 
 		shapeArr = new Shape[10];
 
-		// Why are we using a for loop instead of a for-each loop here?
+		/*
+		*we are using for loop instead of a for each loop because using a for each loop will just return the same shape
+	`	we printed previously. we wouldn't be able to randomize the shapes if we use a for each loop since a for each loop
+		checks for a value in an array instead of setting something in the array equal to something else.
+		*/
 		for (int i = 0; i < shapeArr.length; i++) {
 			shapeArr[i] = ShapeUtilities.randomShape();
 		}
