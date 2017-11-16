@@ -14,12 +14,18 @@ public class Ellipse implements Shape
 		this.radiusA = radiusA;
 		this.radiusB = radiusB;
 	}
-	
+	/*
+	*area of an ellipse is pi times both radii
+	*/
 	public double calculateArea()
 	{
 		return ( pi * radiusA * radiusB);
 	}
 	
+	/*
+	*the perimeter formula is the squareroot((A^2 + B^2)/2) times 2pi
+	* using Math.sqrt for squaring and using math.pow for the squaring
+	*/
 	public double calculatePerimeter()
 	{
 		double part1 = (Math.pow(radiusA, 2) + Math.pow(radiusB, 2))/2 ;
@@ -28,6 +34,9 @@ public class Ellipse implements Shape
 		return end;
 	}
 
+	/*
+	*returns length of both radii and the area and the perimeter
+	*/
 	public String toString() 
 	{
 		return "Ellipse Radii: " + radiusA + " and " + radiusB+ " Ellipse Area: " + this.calculateArea() 
